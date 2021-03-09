@@ -1,0 +1,723 @@
+
+
+@import 'font.css';
+
+/* ---------------------- start css all ------------------------- */
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{ 
+   /* display:flex;
+  justify-content: center;
+ */
+  background: #9c9c9c;  
+  width: 100%;
+  height: 100vh; 
+  }
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.container{
+  
+  /* display: flex; */
+  /* margin:10px 0px; */
+  /* height: 1283px;  */
+  background: #EEEEEE;
+  margin: 0 auto;
+  width: 360px; 
+
+ 
+}
+button{
+  background: none;
+  border: none;
+  outline: none;
+ 
+}
+
+
+
+/* ---------------------- end css all ------------------------- */
+
+/*-----------------------start header----------------------------- */
+
+
+.header{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 360px;
+  height: 101px;
+  background: #FFFFFF
+}
+
+
+.header-up{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+  margin-top: 6px;
+}
+.header-up__right{
+  display: flex;
+  flex-direction: row-reverse;
+  height: 24px;
+  margin-right: 5%;
+}
+.header-up__right-pic{ 
+  width: 22px;
+  height: 24px;
+ display: flex;
+/* padding: 1px; */
+}
+
+.header-up__right-text{
+  width: 69px;
+  height: 20px;
+  margin-right:2px; 
+  display: flex;
+}
+
+
+
+.header-up__right-menu{
+  width: 10.50px;
+  height: 6.25px;
+  display: flex;
+}
+
+.header-up__right-menu--size{
+padding: 5px;
+}
+
+.header-up__left{
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  /* height: 24px; */
+  margin-left: 5%;
+}
+
+.header-up__left-sell{
+  height: 32px;
+  width: 103px;
+  background: #3E3E3E;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FAFAFA;
+}
+
+.header-up__left-basket{
+  width: 32px;
+  height: 32px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.header-up__left-basket--size{
+  width: 16px;
+  height: 20px;
+}
+
+.header-up__left-basket-number{
+  position: absolute;
+  left: -4.5%;
+  top: 3%;
+  width: 18px;
+  height: 18px;
+  background: #DF3856;
+  border-radius: 100px;;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-down{
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  background: none;
+  border: 1px solid #9D9D9D;;
+  border-radius: 100px;
+ }
+
+.header-down__input{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 80%;
+  height: 19px;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #7D7D7D;
+}
+
+
+
+.header-down__search{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+
+
+/*-----------------------end header----------------------------- */
+
+/*-----------------------start main----------------------------- */
+
+.content{
+   
+  /* display: flex; */
+  position: relative;
+  top: 3px;
+  }
+
+
+  
+  .tab{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      width: 360px;
+      height: 42px;
+      background: #ffffff;
+  }
+  .tab-feature{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    width: 50%;
+    color: #535353;
+  }
+
+
+  
+.tab-click {
+  font-weight: bold;  
+  font-size: 14px !important;
+  color: #DF3856;
+}
+  .tab-click::after {
+    display: block;
+    content: " ";
+    height: 2px;
+    width: 50%;
+    background: #DF3856;
+    position: absolute;
+    top: 42px;
+   }
+  
+
+
+
+
+
+  .stall{
+  
+      
+      width: 360px;
+
+      margin-top: 2px;
+      margin-bottom: 5px;
+
+      justify-content: center;
+      background: #FFFFFF;
+       display: flex;
+      flex-direction: column;
+      justify-content: right; 
+  }
+  /* .c-m-qurfe2{
+      
+     
+      width: 360px;
+  
+      height: 375.73px;
+      top: 719.89px;
+      background: #FFFFFF;
+       
+  } */
+
+.stall__head{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+width: 92%;
+height: 20px;
+margin: 0 auto;
+margin-top: 20px;
+/* background-color: beige; */
+}
+.stall__head__from-stall{
+
+  
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3E3E3E;
+  
+ 
+}
+
+.stall__head__name-stall{
+
+  font-family: IRANSans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #3E3E3E;
+margin-right: 2px;
+}
+.stall__profile{
+  width: 92%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 15px;
+  /* background: rgb(255, 143, 63); */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+
+}
+
+.stall__profile-pic{
+width: 40px;
+height: 40px;
+border-radius: 100px;
+background: slategray;
+}
+ 
+.stall__profile-text-box{
+
+display: flex;
+flex-direction: column;
+margin-right: 10px;
+/* background:lightblue; */
+
+}
+.stall__profile-name{
+  font-family: IRANSans;
+  font-size: 12px;
+
+  color: #3E3E3E;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.stall__profile-location{
+
+  font-family: IRANSans;
+  font-size: 10px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  align-self: flex-end;
+  align-items: center;
+  color: #3E3E3E;
+  
+}
+
+.stall__profile-location img{
+  margin-left: 5px;
+  
+}
+
+
+
+.product{
+  display: flex;
+  width: 92%;
+  
+  /* background: lightgreen; */
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  margin-top: 15px;
+
+
+justify-content: right; 
+
+
+}
+.product__pic{
+border-radius: 10px;
+  width: 82px;
+  height: 82px;
+
+}
+.product__text{
+  /* background: limegreen; */
+    font-family: IRANSans;
+    font-size: 12px;
+    width: 40%;
+    height: 30%;  
+    text-align: right;
+    margin-right:10px;
+}
+
+.product__price{
+
+  align-self: flex-end;
+  font-size: 12px;
+  font-weight: 400;
+  color: #535353; 
+  font-family: IRANSans;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  color: #535353;
+}
+
+.product__price span{
+
+  margin: 0 2px;
+}
+
+.product__price__box{
+ 
+ margin-bottom: 10;
+ margin: 0 2px;
+ align-self: flex-end;
+ font-size: 12px;
+ font-weight: 400;
+ color: #535353; 
+
+ font-family: IRANSans;
+ font-size: 12px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: #535353;
+ font-weight: bold;
+
+}
+.product__price-n{
+
+
+/* display: flex; */
+/* margin-top: -10px;*/
+  margin-left: -5px; 
+  margin-bottom: -9px;
+}
+
+
+.product__price-discount{
+color: #9D9D9D;
+text-decoration:line-through #9D9D9D;
+}
+
+
+
+.product__detail{
+  display: flex;
+  flex-direction: row-reverse;
+  /* background: mediumvioletred; */
+  width: 92%;
+
+  justify-content: right;
+  margin: 0 auto;
+  margin-top: 14px;
+
+}
+
+.product__detail button{
+  background: #EEEEEE;
+  border-radius: 100px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+
+}
+
+.product__detail-number{
+  width: 25.79px;
+  Height:23.36px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+    color: #535353;
+
+}
+
+.product__detail-recyclebin{
+margin-right: 5%;
+
+}
+
+
+
+
+
+.product__detail-store{
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  /* line-height: 16px; */
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7D7D7D;
+  margin-right: 24%;
+  padding: 0px;
+  /* padding-bottom: -15px; */
+  border-bottom: 1px dashed #7D7D7D;
+}
+
+.article__line{
+  margin-top: 5%;
+  width: 100%;
+  height: 1px;
+  background: #EEEEEE;
+}
+
+
+/* .stall__footer{
+  
+} */
+
+
+.stall__footer__border-text{
+  margin: auto;
+margin-top: 20px;
+width: 92%;
+height: 28px;
+background: #DFF5F1;
+border-radius: 2px;
+font-family: IRANSans;
+font-size: 12px;
+display: flex;
+align-items: center;
+color: #00786C;
+flex-direction: row-reverse;
+padding-right: 8px;
+}
+.stall__footer_border-text span{
+  font-weight: bold;
+  margin-right:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stall__footer__tiket {
+  margin: 15px 25px;
+  height: 24px;
+  background-color: #eeee;
+  border-radius: 100px;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  
+
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  align-items: center;
+  text-align: center;
+  color: #3E3E3E;
+}
+
+
+.stall__footer__Down{
+  display: flex;
+  width: 92%;
+  align-items: center;
+  justify-content: space-between;
+ flex-direction: row-reverse;
+
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-bottom: -5px;  */
+}
+.stall__footer__Down--buy{
+  height: 32px;
+  background: #DF3856;
+  border-radius: 100px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FAFAFA;
+  
+padding: 0 16px;
+
+}
+
+.stall__footer__price{
+display: flex;
+flex-direction: column;
+
+
+font-family: IRANSans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 19px;
+display: flex;
+align-items: flex-start;
+
+text-align: right;
+color: #535353;
+}
+
+.stall__footer__price-toman{
+
+display: flex;
+align-items: flex-end;
+
+flex-direction: row-reverse;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------end main------------------------------ */
+/*-----------------------start footer----------------------------- */
+.content-footer{
+  /* position: absolute; */
+  width: 360px;
+  background: #ffffff;
+margin-bottom: 10px;
+  display: flex;
+ margin-top: 100px;
+  /* top: 108px;
+   position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 360px;
+  height: 101px;
+  background: #FFFFFF */
+}
+.b{
+width: 60%;
+height: 40px;
+font-family: IRANSans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+
+/* or 175% */
+
+display: flex;
+
+justify-content: center;
+
+color: #FAFAFA;
+
+
+
+/*-----------------------end footer------------------------------ */
+
+
+
+
+
+
+/* ----------------------------function--------------------------------- */
+
+/* --------------------------------------------------------------------- */

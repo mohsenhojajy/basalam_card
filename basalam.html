@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <title>بازار اجتماعی آنلاین | باسلام</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="pic/Logo.svg" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-up">
+                <div class="header-up__right">
+                    <button class="">
+                        <img src="pic/Logo.svg" alt="logo" class="header-up__right-pic">
+                    </button>
+                    <button class="">
+                        <img src="pic/Type.svg" alt="textlogo" class="header-up__right-text">
+                    </button>
+                    <button class="header-up__right-menu--size">
+                        <img src="pic/menu.svg" alt="menu" class="header-up__right-menu">
+                    </button>
+                </div>
+
+
+                <div class="header-up__left">
+
+                    <button class="header-up__left-sell">فروش در باسلام </button>
+
+                    <button class="header-up__left-basket">
+                        <img src="pic/Basket.svg" alt="basket" class="header-up__left-basket--size ">
+                    </button>
+                    <span class=" header-up__left-basket-number" id="header-up__left-basket-number">۳</span>
+
+                </div>
+
+            </div>
+
+
+
+            <form class="header-down" action="#" method="POST">
+
+                <input type="text" dir="rtl" class="header-down__input"
+                    placeholder="جست‌وجو در صدها هزار محصول خانگی و محلی..." autocomplete="off">
+                <button class="header-down__search">
+                    <img src="pic/search.svg" alt="search">
+                </button>
+            </form>
+
+            <!-- <form class="search" >
+                    <input class="search__input" type="text" placeholder="جستجو در صدها هزار محصول خانگی و محلی...">
+                    <button class="search__btn">
+                        <img class="search__btn-icon" src="pic/zoom.svg" alt="vector">    
+                    </button>
+                </form> -->
+
+        </header>
+
+
+
+        <main>
+            <div class="content">
+                <div class="tab">
+                    <button class="tab-feature tab-click">
+                        سبدخرید
+                    </button>
+                    <button class="tab-feature ">
+                        لسیت خرید بعدی
+                    </button>
+                </div>
+
+                <section class="stall">
+                    <div class="stall__head">
+                        <span class="stall__head__from-stall">:از غرفه</span>
+                        <span class="stall__head__name-stall"><b>خوشمزه های خاتون </b></span>
+                    </div>
+                    <div class="stall__profile">
+                        <img class="stall__profile-pic" src="pic/pic1.svg" alt="profile-pic">
+                        <div class="stall__profile-text-box">
+                            <span class="stall__profile-name"> مینو هنگام </span>
+                            <span class="stall__profile-location">از سعادت شهر
+                                <img class="" src="pic/location.svg" alt="profile-location">
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <article>
+                        <div class="product">
+                            <img class="product__pic" src="pic/sosis.svg" alt="product-pic">
+                            <p class="product__text">سوسیس آلمانی پنیری</p>
+                            <div class="product__price">
+                                <span class="">۷۵,۰۰۰</span>
+                                <span class="product__price-discount">۸۵,۰۰۰</span>
+                            </div>
+                            <div class=" product__price__box">
+                                <span class="product__price-n">ن</span>
+                                <span class="">توما</span>
+                            </div>
+                        </div>
+
+                        <div class="product__detail">
+                            <button class="product__detail-Negative" onclick="manfi()"><img src="pic/manfi.svg" alt="negative"></button>
+                            <div class="product__detail-number" id="product__detail-number11">۳</div>
+                            <button class="product__detail-Positive"  onclick="mosbat()"><img src="pic/mosbat.svg" alt="Positive"></button>
+                            <button class="product__detail-recyclebin"><img src="pic/Recyclebin.svg"
+                                    alt="resycle"></button>
+                            <div class="product__detail-store">ذخیره در لیست خرید بعدی </div>
+                        </div>
+                        <div class="article__line"></div>
+                    </article>
+
+                    <article>
+                        <div class="product">
+                            <img class="product__pic" src="pic/culbus.svg" alt="product-pic">
+                            <p class="product__text">کالباس پسته</p>
+                            <div class="product__price">
+                                <span class="">۱۵,۰۰۰</span>
+                                <span class="product__price-discount">۳۵,۰۰۰</span>
+                            </div>
+                            <div class=" product__price__box">
+                                <span class="product__price-n">ن</span>
+                                <span class="">توما</span>
+                            </div>
+                        </div>
+
+                        <div class="product__detail">
+                            <button class="product__detail-Negative" onclick="manfi2()"><img src="pic/manfi.svg" alt="negative"></button>
+                            <div class="product__detail-number" id="product__detail-number2">۱</div>
+                            <button class="product__detail-Positive" onclick="mosbat2()"><img src="pic/mosbat.svg" alt="Positive"></button>
+                            <button class="product__detail-recyclebin"><img src="pic/Recyclebin.svg"
+                                    alt="resycle"></button>
+                            <div class="product__detail-store">ذخیره در لیست خرید بعدی </div>
+                        </div>
+                        <div class="article__line"></div>
+                    </article>
+
+
+                    <article class="stall__footer">
+                        <p class="stall__footer__border-text">هورا! ارسال از این غرفه برای شما <span>.رایگان شد</span>
+                        </p>
+
+                        <div class="stall__footer__tiket">
+                            <img src="pic/belit.svg" alt="tiket">
+                            <a class="" href="#">ثبت کد تخفیف غرفه</a>
+                        </div>
+
+                        <div class="stall__footer__Down">
+                            <button class="stall__footer__Down--buy">ادامه خرید فقط از این غرفه</button>
+                            <div class="stall__footer__price">
+                                <p class="stall__footer__price-kala">جمع مبلغ برای ۲ کالا</p>
+                                <div class="stall__footer__price-toman">۷۵,۰۰۰
+                                 
+                                    <div class=" product__price__box">
+                                        <span class="product__price-n">ن</span>
+                                        <span class="">توما</span>
+                                    </div>
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </section>
+
+
+
+                <section class="stall">
+                    <div class="stall__head">
+                        <span class="stall__head__from-stall">:از غرفه</span>
+                        <span class="stall__head__name-stall"><b>محصولات غذایی ولیک </b></span>
+                    </div>
+
+                    <div class="stall__profile">
+                        <img class="stall__profile-pic" src="pic/pic2.svg" alt="profile-pic2">
+                        <div class="stall__profile-text-box">
+                            <span class="stall__profile-name"> سارا خوش دل </span>
+
+                            <span class="stall__profile-location">از بوشهر
+                                <img class="" src="pic/location.svg" alt="profile-location">
+                            </span>
+
+                        </div>
+                    </div>
+                
+
+
+
+
+                    <article>
+                        <div class="product">
+                            <img class="product__pic" src="pic/sosis.svg" alt="product-pic">
+                            <p class="product__text">سوسیس آلمانی پنیری</p>
+                            <div class="product__price">
+                                <span class="">۷۵,۰۰۰</span>
+                                <span class="product__price-discount">۸۵,۰۰۰</span>
+                            </div>
+                            <div class=" product__price__box">
+                                <span class="product__price-n">ن</span>
+                                <span class="">توما</span>
+                            </div>
+                        </div>
+
+                        <div class="product__detail">
+                            <button class="product__detail-Negative"  onclick="clear1()"><img src="pic/manfi.svg" alt="negative"></button>
+                            <div class="product__detail-number" id="product__detail-number3">۳</div>
+                            <button class="product__detail-Positive"  onclick="outomosbat()"><img src="pic/mosbat.svg" alt="Positive"></button>
+                            <button class="product__detail-recyclebin"><img src="pic/Recyclebin.svg"
+                                    alt="resycle"></button>
+                            <div class="product__detail-store">ذخیره در لیست خرید بعدی </div>
+                        </div>
+                        <div class="article__line"></div>
+                    </article>
+
+
+
+
+
+
+
+
+
+
+                
+                <article class="stall__footer">
+                    <p class="stall__footer__border-text">45،000 : برای ارسال رایگان <span>هزار تومان دیگر از این غرفه خرید کنید  </span>
+                    </p>
+
+                    <div class="stall__footer__tiket">
+                        <img src="pic/belit.svg" alt="tiket">
+                        <a class="" href="#">ثبت کد تخفیف غرفه</a>
+                    </div>
+
+                    <div class="stall__footer__Down">
+                        <button class="stall__footer__Down--buy">ادامه خرید فقط از این غرفه</button>
+                        <div class="stall__footer__price">
+                            <p class="stall__footer__price-kala">جمع مبلغ برای ۲ کالا</p>
+                            <div class="stall__footer__price-toman">۷۵,۰۰۰
+                             
+                                <div class=" product__price__box">
+                                    <span class="product__price-n">ن</span>
+                                    <span class="">توما</span>
+                                </div>
+
+
+                        </div>
+                    </div>
+
+                     </article>
+                </section>
+
+
+            <section>
+             <footer class="content-footer">
+                  
+                
+                <!-- <div class="card__box card__box-edit">
+                    <button class="btn-red btn-red-big"><a class="btn-red-big-link" href="#">ادامه خرید از ۲ غرفه</a></button>
+                    <div class="card__box__price">
+                        <p class="card__box__price-p">مبلغ قابل پرداخت ۲ غرفه</p>
+                        <p class="card__box__price-num">۷۰,۰۰۰ تومان</p>
+
+                         -->
+                    <div class="stall__footer__Down">
+                        <button class="stall__footer__Down--buy b">ادامه خرید از دو غرفه</button>
+                        <div class="stall__footer__price">
+                            <p class="stall__footer__price-kala">مبلغ قابل پرداخت ۲ غرفه</p>
+                            <div class="stall__footer__price-toman">۷۵,۰۰۰
+                             
+                                <div class=" product__price__box">
+                                    <span class="product__price-n">ن</span>
+                                    <span class="">توما</span>
+                                </div>
+
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+
+                </footer>
+
+
+
+
+            </section>
+
+        </main>
+    </div>
+</body>
+
+
+<script src="js/basalam.js"></script>
+</html>
