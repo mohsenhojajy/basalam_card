@@ -1,28 +1,74 @@
 
 /////////////////////////////////////////////afzodan mahsol mahsolat 
-
+var i = 1;
 function useIt() {
     
+        // var temp = document.getElementById("template")[0];
+        // var clon = temp.content.cloneNode(true);
+       
+        // // clon.querySelector(".product__text").textContent="hi";
 
 
        
-        var temp = document.getElementsByTagName("template")[0];
-        var clon = temp.content.cloneNode(true);
-       
-        // clon.querySelector(".product__text").textContent="hi";
-
-
-       
-        var add= document.getElementById("product")
-
-
-       add.appendChild(clon);
+        // var add= document.getElementById("product").appendChild(clon);
       
+
+        
+       
+        var temp1 = document.getElementById("mahsol").content;
+        var copyhtml =document.importNode(temp1,true);
+        // var clon = temp.content.cloneNode(true);
+          var docadd=document.getElementById("product")
+          copyhtml.querySelector(".product__text") .textContent="سوسیس آلمانی و پنیر " ;
+
+          copyhtml.querySelector(".product__text") ;
+        
+        docadd.appendChild(copyhtml);
+       
+        
   }
+// */
+
+//   function useIt1() {
+// //     // if(docadd.hasChildNodes()) {
+// //         // var nodes = docadd.childNodes;
+        
+// //         // // Loop through node list and display node name
+// //         // for(var iw = 0; i < nodes.length; i++) {
+// //             alert(docadd.nodeName);
+
+// var childElem = document.getElementById("product");
+// docadd.removeChild(childElem);
+
+// //         }
+//         }
+    // // }
+/*
+<div id="main">
+    <h1 id="title">My Heading</h1>
+    <p id="hint"><span>This is some text.</span></p>
+</div>
+
+<script>
+var main = document.getElementById("main");
+
+// First check that the element has child nodes 
+if(main.hasChildNodes()) {
+    var nodes = main.childNodes;
+    
+    // Loop through node list and display node name
+    for(var i = 0; i < nodes.length; i++) {
+        alert(nodes[i].nodeName);
+    }
+}
+</script>
+
+   
+    
+}
 
 
-
-
+*/
 
 
 
