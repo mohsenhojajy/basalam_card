@@ -50,12 +50,7 @@
                 </button>
             </form>
 
-            <!-- <form class="search" >
-                    <input class="search__input" type="text" placeholder="جستجو در صدها هزار محصول خانگی و محلی...">
-                    <button class="search__btn">
-                        <img class="search__btn-icon" src="pic/zoom.svg" alt="vector">    
-                    </button>
-                </form> -->
+    
 
         </header>
 
@@ -88,7 +83,24 @@
                     </div>
 
 
+
+
+                        <article>
+                            <button onclick="useIt()">Use me</button>
+                            <div id="container"></div>
+                           
+                            
+                            <template>
+                              <div>Template used: <span>0</span></div>
+                            </template>
+
+                        </article>
+
+
+                    <!-- 
                     <article>
+
+
                         <div class="product">
                             <img class="product__pic" src="pic/sosis.svg" alt="product-pic">
                             <p class="product__text">سوسیس آلمانی پنیری</p>
@@ -97,8 +109,9 @@
                                 <span class="product__price-discount">۸۵,۰۰۰</span>
                             </div>
                             <div class=" product__price__box">
-                                <span class="product__price-n">ن</span>
-                                <span class="">توما</span>
+                                <!-- <span class="product__price-n">ن</span>
+                                <span class="">توما</span> 
+                                <img class="" src="pic/toman.svg" alt="toman"">
                             </div>
                         </div>
 
@@ -108,12 +121,12 @@
                             <button class="product__detail-Positive"  onclick="mosbat()"><img src="pic/mosbat.svg" alt="Positive"></button>
                             <button class="product__detail-recyclebin"><img src="pic/Recyclebin.svg"
                                     alt="resycle"></button>
-                            <div class="product__detail-store">ذخیره در لیست خرید بعدی </div>
+                            <div class="product__detail-store"><a href="#">ذخیره در لیست خرید بعدی </a></div>
                         </div>
                         <div class="article__line"></div>
-                    </article>
+                    </article> -->
 
-                    <article>
+                    <!-- <article>
                         <div class="product">
                             <img class="product__pic" src="pic/culbus.svg" alt="product-pic">
                             <p class="product__text">کالباس پسته</p>
@@ -122,8 +135,9 @@
                                 <span class="product__price-discount">۳۵,۰۰۰</span>
                             </div>
                             <div class=" product__price__box">
-                                <span class="product__price-n">ن</span>
+                                <!-- <span class="product__price-n">ن</span>
                                 <span class="">توما</span>
+                                <img class="" src="pic/toman.svg" alt="toman"">
                             </div>
                         </div>
 
@@ -133,10 +147,10 @@
                             <button class="product__detail-Positive" onclick="mosbat2()"><img src="pic/mosbat.svg" alt="Positive"></button>
                             <button class="product__detail-recyclebin"><img src="pic/Recyclebin.svg"
                                     alt="resycle"></button>
-                            <div class="product__detail-store">ذخیره در لیست خرید بعدی </div>
+                            <div class="product__detail-store"><a href="#">ذخیره در لیست خرید بعدی </a> </div>
                         </div>
                         <div class="article__line"></div>
-                    </article>
+                    </article> -->
 
 
                     <article class="stall__footer">
@@ -155,8 +169,9 @@
                                 <div class="stall__footer__price-toman">۷۵,۰۰۰
                                  
                                     <div class=" product__price__box">
-                                        <span class="product__price-n">ن</span>
-                                        <span class="">توما</span>
+                                        <!-- <span class="product__price-n">ن</span>
+                                        <span class="">توما</span> -->
+                                        <img class="" src="pic/toman.svg" alt="toman"">
                                     </div>
 
 
@@ -220,18 +235,19 @@
                                 <span class="product__price-discount">۸۵,۰۰۰</span>
                             </div>
                             <div class=" product__price__box">
-                                <span class="product__price-n">ن</span>
-                                <span class="">توما</span>
+                                <!-- <span class="product__price-n">ن</span>
+                                <span class="">توما</span> -->
+                                <img class="" src="pic/toman.svg" alt="toman"">
                             </div>
                         </div>
 
                         <div class="product__detail">
-                            <button class="product__detail-Negative"  onclick="clear1()"><img src="pic/manfi.svg" alt="negative"></button>
+                            <button class="product__detail-Negative" id="product__detail-Negative2" ><img src="pic/manfi.svg" alt="negative"></button>
                             <div class="product__detail-number" id="product__detail-number3">۳</div>
-                            <button class="product__detail-Positive"  onclick="outomosbat()"><img src="pic/mosbat.svg" alt="Positive"></button>
+                            <button class="product__detail-Positive" id="product__detail-Positive2"><img src="pic/mosbat.svg" alt="Positive"></button>
                             <button class="product__detail-recyclebin"><img src="pic/Recyclebin.svg"
                                     alt="resycle"></button>
-                            <div class="product__detail-store">ذخیره در لیست خرید بعدی </div>
+                            <div class="product__detail-store"><a href="#">ذخیره در لیست خرید بعدی </a> </div>
                         </div>
                         <div class="article__line"></div>
                     </article>
@@ -262,8 +278,9 @@
                             <div class="stall__footer__price-toman">۷۵,۰۰۰
                              
                                 <div class=" product__price__box">
-                                    <span class="product__price-n">ن</span>
-                                    <span class="">توما</span>
+                                    <!-- <span class="product__price-n">ن</span>
+                                    <span class="">توما</span> -->
+                                    <img class="" src="pic/toman.svg" alt="toman"">
                                 </div>
 
 
@@ -278,13 +295,7 @@
              <footer class="content-footer">
                   
                 
-                <!-- <div class="card__box card__box-edit">
-                    <button class="btn-red btn-red-big"><a class="btn-red-big-link" href="#">ادامه خرید از ۲ غرفه</a></button>
-                    <div class="card__box__price">
-                        <p class="card__box__price-p">مبلغ قابل پرداخت ۲ غرفه</p>
-                        <p class="card__box__price-num">۷۰,۰۰۰ تومان</p>
-
-                         -->
+                
                     <div class="stall__footer__Down">
                         <button class="stall__footer__Down--buy b">ادامه خرید از دو غرفه</button>
                         <div class="stall__footer__price">
@@ -292,8 +303,9 @@
                             <div class="stall__footer__price-toman">۷۵,۰۰۰
                              
                                 <div class=" product__price__box">
-                                    <span class="product__price-n">ن</span>
-                                    <span class="">توما</span>
+                                    <!-- <span class="product__price-n">ن</span>
+                                    <span class="">توما</span> -->
+                                    <img class="" src="pic/toman.svg" alt="toman"">
                                 </div>
 
 

@@ -28,13 +28,11 @@ function mosbat2() {
 
     orders2++;
     lblorders2.innerHTML = orders2;
-    alltedad();
 }
 function manfi2() {
     if (orders2 > 1) {
         orders2--;
         lblorders2.innerHTML = orders2;
-        alltedad();
     }
     else {
         alert("حداقل باید یک مورد را انتخاب کنید ");
@@ -42,11 +40,6 @@ function manfi2() {
 }
 
 
-function alltedad() {
-
-    var tedad = orders + orders2 +orders3;
-    document.getElementById("header-up__left-basket-number").innerHTML = tedad;
-}
 
 
 
@@ -55,23 +48,30 @@ function alltedad() {
 
 var orders3 = 1;
 var lblorders3 = document.getElementById("product__detail-number3");
-lblorders3.innerHTML = orders3;
+lblorders3.innerText = orders3;
+
+document.getElementById("product__detail-Positive2").onmousedown=plus ,onmouseup=clear1;
+document.getElementById("product__detail-Negative2").onmousedown=outomanfi ,onmouseup=clear1;
 
 var n;
 var timem = 1000;
 var orders3 = 1;
 var timeoutID;
-
+var timeinID;
 function outomosbat() {
 
     timeoutID = setInterval(plus, timem);
 }
+function outomanfi(){
+
+    timeinID = setInterval(Negative, timem);
+}
+
 
 
 function plus() {
 
     orders3++;
-    alltedad()
     time = timem - 100;
     lblorders3.innerHTML = orders3;
     if (timem > 100) {
@@ -82,16 +82,30 @@ function plus() {
 }
 
 
+function Negative(){
+    
+    orders3--;
+    time = timem - 100;
+    lblorders3.innerHTML = orders3;
+    if (timem > 100) {
+        timem = timem - 100;
+
+        delay();
+    }
+}
 
 function delay() {
     clearTimeout(timeoutID);
-
+    clearTimeout(timeinID);
     outomosbat();
 }
 
 
 function clear1() {
     clearTimeout(timeoutID);
+    clearTimeout(timeinID);
+
+     timem = 1000;
 }
 
 
