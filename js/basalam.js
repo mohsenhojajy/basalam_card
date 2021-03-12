@@ -1,3 +1,53 @@
+
+/////////////////////////////////////////////afzodan mahsol mahsolat 
+
+function useIt() {
+    
+
+
+       
+        var temp = document.getElementsByTagName("template")[0];
+        var clon = temp.content.cloneNode(true);
+       
+        // clon.querySelector(".product__text").textContent="hi";
+
+
+       
+        var add= document.getElementById("product")
+
+
+       add.appendChild(clon);
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var orders = 1;
 var lblorders = document.getElementById("product__detail-number11");
 lblorders.innerHTML = orders;
