@@ -1,0 +1,169 @@
+/* ============================= basket address ============================== */
+
+.address {
+    width: 360px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    justify-content: center;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.address__head {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    width: 92%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.address__back {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.address__send {
+    font-family: IRANSans;
+    font-size: 16px;
+    color: #3E3E3E;
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    margin-right: 4px;
+}
+
+.address__newaddress {
+    border: 1px solid #9D9D9D;
+    width: 141px;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    border-radius: 100px;
+}
+
+.address__newaddress--pic {
+    width: 16px;
+    height: 16px;
+}
+
+.address__newaddress--text {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.address__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 4%;
+    margin-top: 10px;
+    align-items: center;
+    text-align: right;
+}
+
+.address__content--sendto {
+    font-family: IRANSans;
+    font-size: 14px;
+    color: #3E3E3E;
+}
+
+.address__contentbox {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.address__contentbox--left {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 76%;
+    margin-left: 8%;
+    align-items: center;
+    text-align: right;
+}
+
+.address__contentbox--text {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: IRANSans;
+    font-size: 14px;
+    color: #3E3E3E;
+}
+
+.address__contentbox--right {
+    display: flex;
+    justify-content: center;
+    width: 16%;
+    margin-top: 4px;
+}
+
+/* =====================radiobutton ==========================*/
+
+.containerb {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    color: #DF3856;
+}
+
+.containerb input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 2px solid #9D9D9D;
+}
+
+.containerb:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.containerb input:checked~.checkmark {
+    background-color: #DF3856;
+    border: none;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.containerb input:checked~.checkmark:after {
+    display: block;
+}
+
+.containerb .checkmark:after {
+    top: 5px;
+    left: 5px;
+    align-content: center;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
